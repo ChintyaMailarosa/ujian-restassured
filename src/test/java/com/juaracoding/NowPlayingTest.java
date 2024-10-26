@@ -37,13 +37,6 @@ public class NowPlayingTest {
                 .body("error",equalTo("The Substance"))
                 .log().all();
 
-//        given()
-//                .queryParam("page", "2")
-//                .when()
-//                .get(baseUrl+ "/movie/now_playing")
-//                .then()
-//                .statusCode(400)
-//                .body("error", equalTo("Invalid parameters"));
     }
 
 }
